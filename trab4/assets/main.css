@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+    
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    border: 0;
+  }
+  
+  header {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: red;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  aside {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: blue;
+  }
+  
+  aside h2 {
+    text-align: center;
+  }
+  
+  main {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: red;
+    padding: 0.5rem;
+  }
+  
+  main .gabigol {
+    background-color:bisque;
+  }
+  
+  main .felipeneto{
+    background-color:bisque;
+  }
+  
+  main .pitagoras {
+    background-color: bisque;
+  }
+  
+  main .gabigol .principal, .felipeneto .principal, .pitagoras .principal {
+    grid-column: span 2; 
+    grid-row: span 2; 
+    height: 215px; 
+  }
+  
+  main .gabigol .principal img, .felipeneto .principal img, .pitagoras .principal img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  footer {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: blue;
+  }
